@@ -1,6 +1,9 @@
 # angular-draggable
 Draggable directive for AngularJS. Depends on jQuery UI's draggable.
 
+## Live example!
+Check it out at http://jsfiddle.net/JulianMayorga/y5YUt/
+
 ## Install
 1.  Include 'draggable.js' into your app
 2.  Add 'juli.draggable' as a module dependency to your app.
