@@ -1,0 +1,29 @@
+<!doctype html>
+  <head>
+    <title>jQuery UI Draggable for AngularJS</title>
+    <style>
+      [juli-draggable] {
+        width: 100px;
+        height: 100px;
+        background: #ccc;
+      }
+    </style>
+  </head>
+  <body ng-app="ExampleApp">
+    <!-- Based on jQueryUI's draggable example -->
+    <!-- http://api.jqueryui.com/draggable/ -->
+
+    <div class="container">
+      <div juli-draggable >Drag me</div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+
+    <script src="draggable.js"></script>
+    <script>
+      angular.module('ExampleApp', ['juli.draggable']);
+    </script>
+  </body>
+</html>
